@@ -333,4 +333,30 @@ footer a{
     color:#088178;
 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    #header {
+        padding: 20px;
+    }
+
+    #hero {
+        padding: 0 20px;
+    }
+
+    #product1 .procontain {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 20px;
+    }
+}
+
 
